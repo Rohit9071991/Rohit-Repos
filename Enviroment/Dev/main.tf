@@ -3,6 +3,8 @@ module "rg" {
   rg     = var.rg_details
 }
 
+
+
 module "stg" {
   source     = "../../Modules/Storage_Account"
   stg        = var.stg_details
